@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Examination Portal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="question" id="thecard">
+          <h5 id="heading">The question will be appeared here ?</h5>
+
+          <ul id="justoptions">
+              <li>
+                  <input type="radio" id="a" name="answer">
+                  <label id="a_text" for="a">option a is the first</label>
+              </li>
+              <li>
+                <input type="radio" id="b" name="answer" unchecked>
+                <label id="b_text" for="b">option b is the second</label>
+            </li>
+            <li>
+                <input type="radio" id="c" name="answer">
+                <label id="c_text" for="c">option c is the third</label>
+            </li>
+            <li>
+                <input type="radio" id="d" name="answer">
+                <label id="d_text" for="d">option d is the fourth</label>
+            </li>
+          </ul>
+
+          <button id="submit" >submit</button>
+      </div>
+
+      <div id="start">
+        <div class="card text-center">
+            <div class="card-header">
+              Select a Exam
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">General Knowledge Examination</h5>
+              <p class="card-text">This exam is a general knowledge based competition.You have to choose the correct the answer from the given</p>
+              <a href="#" id="startbtn" class="btn btn-primary">Enter Exam</a>
+            </div>
+            <div class="card-footer text-muted">
+              Exam is conducted for 5 marks
+            </div>
+          </div>
+      </div>
+      
+        
+            <div id="result">
+                <div class="card">
+                    <div id="result" class="card-body">
+                      This is some text within a card body.
+                    </div>
+                  </div>
+            </div>
+          
+      
+      <script src="/script.js"></script>
+</body>
+</html>

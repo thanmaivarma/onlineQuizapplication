@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(156, 201, 241);
+}
+
+.question{
+    position: relative;
+    border: 1px solid black;
+    width: fit-content;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0%;
+    left: 430px;
+    top: 100px;
+    border-radius: 20px;
+    display: none;
+}
+#justoptions{
+    list-style: none;
+    padding: 20px;
+    margin-left: 80px;
+}
+#submit{
+    width: 100%;
+    padding: 2rem;
+    display: block;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#heading{
+    padding: 20px;
+}
+#result{
+    display: none;
+}
